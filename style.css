@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 25px 40px 12px rgba(0,0,0,0.2); 
+    box-shadow: 0px 25px 40px 12px rgba(0,0,0,0.2);
+}
+
+button:hover{
+    background-color: rgb(36, 35, 35);
+}
